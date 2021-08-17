@@ -46,7 +46,7 @@ The repo provides sample PDF files used by the Watson Discovery service alone wi
 In the use case, `Watson Discovery` service serves as a content repository. Enterprise data will be uploaded into the instance. The information is then annotated and pre-processed using the Discovery `Smart Document Understanding (SDU)` feature. Veriety document formats are supported by the Watson Discovery service. During this repo, sample PDF files are provided.
 
 
-### Step 2.1 - Deploying Watson Discovery Service
+#### Step 2.1 - Deploying Watson Discovery Service
 
 1. Login IBM Cloud.
 
@@ -55,7 +55,7 @@ In the use case, `Watson Discovery` service serves as a content repository. Ente
 1. Create an instance of Watson Discovery service. Both `Lite` plan and paid plan support the repo.
 
 
-### Step 2.2 - Configure Watson Discovery Service and Upload Sample PDF Files
+#### Step 2.2 - Configure Watson Discovery Service and Upload Sample PDF Files
 
 After an instance of Watson Discovery service is created, 
 
@@ -100,7 +100,7 @@ After an instance of Watson Discovery service is created,
     !["watson-discovery"](docs/images/watson-discovery-05.png)
 
 
-### Step 2.3 - Pre-process the Sample PDF Files
+#### Step 2.3 - Pre-process the Sample PDF Files
 
 Use `Smart Document Understanding (SDU)` feature of Watson Discovery to break your documents into smaller, more consumable chunks of information. When you help Discovery index the correct set of information in your documents, you improve the answers that your application can find and return.
 
@@ -117,7 +117,7 @@ This repo does not cover how the `Smart Document Understanding (SDU)` works. The
 !["watson-discovery"](docs/images/watson-discovery-08.png)
 
 
-### Step 2.4 - Search Contents in Watson Discovery Service
+#### Step 2.4 - Search Contents in Watson Discovery Service
 
 It's the best practice to verify the search result and accuracy in `Watson Discovery Service` before moving forward.
 
@@ -192,14 +192,14 @@ To create a `Search skill` in Watson Assistant instance,
 1. `Create`.
 
 
-#### 3.2 - Create Dialog Skill
+#### Step 3.2 - Create Dialog Skill
 
 While you are going to create a new `assistant` in the next section, you'll need a simple `dialog skill`.
 
 A sample dialog skill `skill-medicine-info-dialog.json` is provided in sub-folder `data/`. You may quickly import the JSON file and create a dialog skill.
 
 
-#### 3.3 - Create Assistant
+#### Step 3.3 - Create Assistant
 
 To create a new `assistant`,
 
@@ -224,7 +224,7 @@ To create a new `assistant`,
     !["watson-discovery"](docs/images/watson-assistant-06.png)
 
 
-#### 3.4 - Verification
+#### Step 3.4 - Verification
 
 To verify the chatbot's search capability works as expected,
 
