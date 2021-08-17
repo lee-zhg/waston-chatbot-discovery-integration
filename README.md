@@ -192,14 +192,14 @@ To create a `Search skill` in Watson Assistant instance,
 1. `Create`.
 
 
-#### 3.2 Create Dialog Skill
+#### 3.2 - Create Dialog Skill
 
 While you are going to create a new `assistant` in the next section, you'll need a simple `dialog skill`.
 
 A sample dialog skill `skill-medicine-info-dialog.json` is provided in sub-folder `data/`. You may quickly import the JSON file and create a dialog skill.
 
 
-#### 3.3 Create Assistant
+#### 3.3 - Create Assistant
 
 To create a new `assistant`,
 
@@ -224,7 +224,7 @@ To create a new `assistant`,
     !["watson-discovery"](docs/images/watson-assistant-06.png)
 
 
-#### 3.4 Verification
+#### 3.4 - Verification
 
 To verify the chatbot's search capability works as expected,
 
